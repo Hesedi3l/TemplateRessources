@@ -1,0 +1,327 @@
+/*                  Font Family                    */
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*                                     */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.col50{
+    width: 50%;
+}
+/*                  Header                    */
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 8vh;
+    padding: 25px 50px;
+}
+header h1{
+    color: rgba(42,42,42,0.6);
+    font-size: 35px;
+}
+header h1 span{
+    color: royalblue;
+}
+header h1 i{
+    margin-right: 15px;
+    color: royalblue;
+}
+header ul.menu{
+    margin: 10px 0;
+}
+header ul.menu li{
+    display: inline;
+}
+header ul.menu li:not(:nth-child(5)){
+    margin-right: 20px;
+}
+header ul.menu li a{
+    color: #2a2a2a;
+}
+header a.btn{
+    padding: 10px 15px;
+    border: 2px solid royalblue;
+    display: inline-block;
+    border-radius: 5px;
+    color: #2a2a2a;
+    transition: 0.5s;
+}
+header a.btn:nth-child(1){
+    margin-right: 15px;
+    background: royalblue;
+    border: 2px solid transparent;
+    color: #fff;
+}
+header a:hover{
+    opacity: 0.6;
+}
+/*                  End Header                    */
+/*                  Banner                    */
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 150px 50px;
+}
+.banner .col50 .imgBx{
+    width: 100%;
+    height: 100%;
+}
+.banner .col50 .imgBx img{
+    width: 100%;
+    height: 100%;
+}
+.banner .col50 .textBx{
+    padding: 50px;
+}
+.banner .col50 .textBx h2{
+    font-size: 45px;
+    color: rgba(65,105,225,0.5);
+}
+.banner .col50 .textBx p{
+    font-size: 22px;
+    color: rgba(42,42,42,0.6);
+    margin-top: 30px;
+}
+.banner .col50 .textBx a.btn{
+    padding: 10px 15px;
+    border: 2px solid royalblue;
+    display: inline-block;
+    border-radius: 5px;
+    color: #2a2a2a;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+.banner .col50 .textBx a.btn-1{
+    margin-right: 15px;
+    background: royalblue;
+    border: 2px solid transparent;
+    color: #fff;
+}
+.banner .col50 .textBx a.btn:hover{
+    opacity: 0.8;
+}
+/*                  End Banner                    */
+/*                  Community                    */
+.community{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.community .textArea{
+    text-align: center;
+    padding: 0 250px;
+}
+.community .textArea h5{
+    color: royalblue;
+    font-size: 16px;
+}
+.community .textArea h3{
+    font-size: 25px;
+    color: rgba(42,42,42,0.6);
+    margin-top: 15px;
+}
+.community .textArea p{
+    font-size: 20px;
+    color: rgba(42,42,42,0.8);
+    margin-top: 25px;
+}
+.community .container{
+    display: flex;
+    justify-content: center;
+}
+.community .container .imgBx{
+    width: 650px;
+}
+.community .container .imgBx img{
+    width: 100%;
+    height: 100%;
+}
+/*                  End Community                    */
+/*                  About                    */
+.about{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 50px;
+    min-height: 100vh;
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.about .container:nth-child(1){
+    margin-bottom: 200px;
+}
+.about .container .col50 .imgBx{
+    width: 650px;
+}
+.about .container .col50 .imgBx img{
+    width: 100%;
+    height: 100%;
+}
+.about .container .col50.imgContent{
+    display: flex;
+    justify-content: center;
+}
+.about .col50 .textBx{
+    padding: 10px 50px;
+}
+.about .col50 .textBx h5{
+    color: royalblue;
+    font-size: 16px;
+}
+.about .col50 .textBx h3{
+    font-size: 25px;
+    color: rgba(42,42,42,0.9);
+    margin-top: 15px;
+}
+.about .col50 .textBx p{
+    font-size: 20px;
+    color: rgba(42,42,42,0.8);
+    margin-top: 25px;
+}
+.about .col50 .textBx a.btn{
+    padding: 10px 15px;
+    border: 2px solid royalblue;
+    display: inline-block;
+    border-radius: 5px;
+    color: #2a2a2a;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+.about .col50 .textBx .stats{
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.about .col50 .textBx .stats .stat{
+    display: flex;
+}
+.about .col50 .textBx .stats .stat .textStat p{
+    font-size: 18px;
+    margin-top: 3px;
+}
+.about .col50 .textBx .stats .stat i{
+    font-size: 40px;
+    color: royalblue;
+    margin: 10px 15px;
+}
+/*                  End About                    */
+/*                  Domains                    */
+.domains,.testimonials{
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.domains .textBx, .testimonials .textBx{
+    text-align: center;
+    padding: 0 300px 100px;
+}
+.domains .textBx h3, .testimonials .textBx h3{
+    font-size: 25px;
+    color: rgba(42,42,42,0.9);
+    margin-top: 15px;
+}
+.domains .textBx p, .testimonials .textBx p{
+    font-size: 20px;
+    color: rgba(42,42,42,0.8);
+    margin-top: 25px;
+}
+.domains .container, .testimonials .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+}
+.domains .container .box{
+    width: 350px;
+    padding: 50px 20px;
+    margin: 20px 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+}
+.domains .container .box::after{
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background: royalblue;
+    opacity: 0.6;
+    z-index: -1;
+    border-radius: 5px;
+}
+.domains .container .box .icon{
+    background: rgba(65,105,225,1);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px 0;
+}
+.domains .container .box .icon i{
+    font-size: 24px;
+    color: #fff;
+}
+.domains .container .box h4{
+    margin-top: 10px;
+    color: rgba(42,42,42,0.6);
+}
+.domains .container .box p{
+    color: rgba(42,42,42,0.8);
+    margin-top: 15px;
+}
+/*                  End Domains                    */
+/*                  Testimonials                    */
+.testimonials .container .card{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 2px solid royalblue;
+}
+.testimonials .container .card img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonials .container .card p{
+    color: rgba(42,42,42,0.6);
+    margin-top: 10px;
+}
+.testimonials .container .card:nth-child(2){
+    transform: scale(1.2);
+    border-bottom: 2px solid crimson;
+}
+/*                  End Testimonials                    */
+/*                  Copyright                    */
+/*                  End Copyright                    */
