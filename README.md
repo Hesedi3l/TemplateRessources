@@ -13,3 +13,6 @@
 
 ## 💻 Doctor template
 ![Alt](Screens/doctor_screen.png)
+
+## 💻 Burger template
+![Alt](Screens/burger_image.png)
