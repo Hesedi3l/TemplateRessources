@@ -16,3 +16,9 @@
 
 ## 💻 Burger template
 ![Alt](Screens/burger_image.png)
+
+## 💻 Black Portfolio template
+![Alt](Screens/blackPortfolio_screen.png)
+
+## 💻 White Portfolio template
+![Alt](Screens/whitePortfolio_screen.png)
