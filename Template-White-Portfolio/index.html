@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>Template WebSite White Theme</title>
+
+    <link rel="stylesheet" href="sources/css/main.css">
+    <link rel="shortcut icon"  href="sources/imgs/logo.png">
+
+    <meta name="description" content="Venez découvrir a travers mon site tout mes projets ainsi que mes services.">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();">
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2><span>Lorem.</span></h2>
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Mais ... qui suis-je ?</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias cum dolorum ducimus error exercitationem expedita id ipsa iusto minus n
+                    eque odit quod recusandae rerum similique tempora vero, vitae.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo laborum minima nam nulla quo, sequi suscipit
+                    <br>
+                    <br>
+                    vero. Deleniti dicta dolor inventore minus natus odio officia perspiciatis porro quod. Consequatur!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum saepe tempora tempore vel? <br>
+                    Aut consequatur corporis ducimus eius ipsum itaque, iure maiores numquam porro, quos saepe temporibus tenetur, voluptates voluptatum.</p>
+            </div>
+            <div class="w50">
+                <img src="sources/imgs/image1.png" class="img" alt="image1">
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Mes Créations</h2>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="workBx">
+                <img src="sources/imgs/icon5.png" alt="icon1">
+                <h2>Lorem</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloribus expedita iste maxime molestiae quidem quod ratione rem repellat repellendus sequi, tenetur, unde vitae. Animi ea eos expedita pariatur sint.</p>
+            </div>
+            <div class="workBx">
+                <img src="sources/imgs/icon5.png" alt="icon1">
+                <h2>Lorem</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloribus expedita iste maxime molestiae quidem quod ratione rem repellat repellendus sequi, tenetur, unde vitae. Animi ea eos expedita pariatur sint.</p>
+            </div>
+            <div class="workBx">
+            <img src="sources/imgs/icon5.png" alt="icon1">
+            <h2>Lorem</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloribus expedita iste maxime molestiae quidem quod ratione rem repellat repellendus sequi, tenetur, unde vitae. Animi ea eos expedita pariatur sint.</p>
+        </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Me contacter</h2>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-discord"></i>
+                        <div class="text">
+                            <h3>Discord</h3>
+                            <p>Lorem</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>Lorem</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        <div class="text">
+                            <h3>Github</h3>
+                            <p><a href="#">Lorem</a></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright 2021 Lorem. <a href="dark.html">All Right Reserved.</a></p>
+    </div>
+    <script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+        function toggleMenu() {
+            let menuToggle = document.querySelector('.toggle');
+            let menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
